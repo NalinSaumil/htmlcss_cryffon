@@ -1,0 +1,165 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Teko|Titillium+Web');
+/*General*/
+body{
+  background-color: rgb(255,194,102)
+}
+/*Header*/
+/*Navigation*/
+.navbar {
+  width: 1100px;
+  overflow: hidden;
+  z-index: 3;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  margin-top: 25px;
+  margin-left: 80px;
+}
+li a, .btn-name {
+  display: inline-block;
+  color: rgb(245,245,245);
+  text-align: center;
+  padding: 5px 70px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Teko', sans-serif;
+}
+li {
+  float: left;
+  border-right:1px solid white;
+  border-left:1px solid white;
+}
+li a:hover, .button:hover .btn-name {
+  color: dimgray;
+}
+li a:active, .button:active .btn-name {
+  color: dimgray;
+}
+li.button {
+  display: inline-block;
+}
+.opt {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 201, 102);
+}
+.opt a {
+  color: black;
+  padding: 9px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.opt a:hover {
+  background-color: rgb(205, 165, 243);
+}
+/*header content*/
+#logo{
+          float: left;
+          width: 100px;
+}
+.mainhead{
+          background-color: black;
+          width: 100%;
+          height: 80px;
+}
+#Title{
+          color: white;
+          float: left;
+          font-family: 'Teko', sans-serif;
+          font-size: 50px;
+          margin-top: 10px;
+} 
+/*Main Body*/
+/*Main Content*/
+h4{
+          color: white;
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 50px;
+          text-align: center;
+}
+#apmac{
+          color: black;
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 50px;
+          text-align: center;
+}
+.txt{
+          width: 100%;
+          background: url(motherboard.jpg);
+          background-repeat: repeat;
+          background-size: 100% 750px;
+          height: 300px;
+          padding-top: 140px;
+          margin-top: 10px;
+          
+}
+.PCtxt{
+          width: 100%;
+          background: url(PC.jpg);
+          background-repeat: repeat;
+          background-size: 100% 750px;
+          height: 300px;
+          padding-top: 140px;
+          margin-top: 10px;
+          
+}
+.MACtxt{
+          width: 100%;
+          background: url(mac.jpg);
+          background-repeat: repeat;
+          background-size: 100% 750px;
+          height: 300px;
+          padding-top: 140px;
+          margin-top: 10px;
+          
+}
+.PPtxt{
+          width: 100%;
+          background: url(phone.jpeg);
+          background-repeat: repeat;
+          background-size: 100% 750px;
+          height: 300px;
+          padding-top: 140px;
+          margin-top: 10px;
+          
+}
+.CONTtxt{
+          width: 100%;
+          background: url(Contbak.jpg);
+          background-repeat: repeat;
+          background-size: 100% 750px;
+          height: 300px;
+          padding-top: 140px;
+          margin-top: 10px;
+          
+}
+#txtmain{
+          font-size: 21px;
+          font-family: 'Exo 2', sans-serif;
+          text-align: center;
+          width:25%;
+          margin-right: auto;
+          margin-left: auto;
+}
+#animation_container{
+          margin-right: auto;
+          margin-left: auto;
+}
+/*bottom*/
+/*footer*/
+.footer{
+          background-color: black;
+}
+#footxt{
+          color: white;
+          text-align: center;
+          font-family: 'Titillium Web', sans-serif;
+}
